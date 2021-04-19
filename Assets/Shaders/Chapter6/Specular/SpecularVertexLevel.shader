@@ -2,7 +2,7 @@
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "AwesomeUnityShader/Chapter6/Specular Vertex-Level"{
+Shader "AweSomeUnityShaders/Chapter 6/Specular Vertex-Level"{
 
 	Properties{
 		_Diffuse("DiffuseColor", Color) = (1, 1, 1, 1)

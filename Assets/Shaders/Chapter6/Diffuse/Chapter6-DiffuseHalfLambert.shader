@@ -8,7 +8,7 @@ half lambert与phong模式不同的地方为
 		而 phong 为 saturate(dot(normal, lightdir)) 这导致了phong 模式的背面会完全是黑的，而half lambert则和向光面是一样的
 */
 
-Shader "AwesomeUnityShader/Chapter 6/Half Lambert"{
+Shader "AweSomeUnityShaders/Chapter 6/Half Lambert"{
 
 	Properties{
 		_Diffuse("Diffuse color", Color) = (1, 1, 1, 1)

@@ -3,7 +3,7 @@
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "AwesomeUnityShader/Chapter 6/Specular Pixel-Level"{
+Shader "AweSomeUnityShaders/Chapter 6/Specular Pixel-Level"{
 
 	Properties{
 		_Diffuse("漫反射", Color) = (1, 1, 1, 1)

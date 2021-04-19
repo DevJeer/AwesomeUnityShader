@@ -9,7 +9,7 @@ blin-phong 光照模型避免了计算reflect dir，采用了 v + l 的方式来
 这样得到的效果是和phong模式差不多的，所以大多是采用blin-phong模式
 */
 
-Shader "AweSomeUnityShader/Chapter 6/Blin-Phong"{
+Shader "AweSomeUnityShaders/Chapter 6/Blin-Phong"{
 
 	Properties{
 		_Diffuse ("漫反射", Color) = (1, 1, 1, 1)
