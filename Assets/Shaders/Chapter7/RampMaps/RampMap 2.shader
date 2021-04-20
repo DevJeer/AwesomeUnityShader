@@ -49,6 +49,7 @@ Shader "AweSomeUnityShaders/Chapter 7/Ramp Texture_compare2"{
 				o.pos = UnityObjectToClipPos(v.vertex);
 				o.worldNormal = UnityObjectToWorldNormal(v.normal);
 				o.worldPos = UnityObjectToWorldDir(v.vertex);
+				o.uv = TRANSFORM_TEX(v.texcoord, _RampTex);
 				return o;
 			}
 
